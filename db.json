@@ -1,0 +1,216 @@
+{
+  "test": {
+    "results": [
+      {
+        "gender": "female",
+        "name": { "title": "Mrs", "first": "Liva", "last": "Rasmussen" },
+        "location": {
+          "street": { "number": 4062, "name": "Færgevej" },
+          "city": "Gørløse",
+          "state": "Sjælland",
+          "country": "Denmark",
+          "postcode": 39444,
+          "coordinates": { "latitude": "-33.6920", "longitude": "117.3469" },
+          "timezone": {
+            "offset": "+5:00",
+            "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+          }
+        },
+        "email": "liva.rasmussen@example.com",
+        "login": {
+          "uuid": "8e8a634b-5faa-4cbb-bd72-08cd923a2df3",
+          "username": "blackbear595",
+          "password": "jackoff",
+          "salt": "0OQXQUl2",
+          "md5": "298b023558c2c6103432801ad8043f21",
+          "sha1": "0d01de650b050b81324ee787e6ddfa723d186440",
+          "sha256": "500a3e106ee85bfce912a8332ad989155975b2ca48194968dfe79f609c25dc49"
+        },
+        "dob": { "date": "1986-12-16T10:11:53.173Z", "age": 35 },
+        "registered": { "date": "2016-07-27T15:23:39.806Z", "age": 5 },
+        "phone": "11618919",
+        "cell": "27725247",
+        "id": { "name": "CPR", "value": "161286-5821" },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/57.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/57.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/57.jpg"
+        },
+        "nat": "DK"
+      }
+    ],
+    "info": {
+      "seed": "a49b9a103fd4edd6",
+      "results": 1,
+      "page": 1,
+      "version": "1.3"
+    }
+  },
+  "Bisection": {
+    "Bisection": {
+      "Funtion": "(x^4)-13",
+      "XL": 1.5,
+      "XR": 2
+    }
+  },
+  "False_position": {
+    "False_position": {
+      "Funtion": "(x^4)-13",
+      "XL": 1.5,
+      "XR": 2
+    }
+  },
+  "Onepoint": {
+    "Onepoint": {
+      "Funtion": "x-1/2",
+      "X0": 0
+    }
+  },
+  "Newton_raphson": {
+    "Newton_raphson": {
+      "Funtion": "e^{-2x}+\\sin \\left(3x\\right)",
+      "X0": 1
+    }
+  },
+  "Secant": {
+    "Secant": {
+      "Funtion": "e^{-2x}+\\sin \\left(3x\\right)",
+      "X0": 1,
+      "X1": 3
+    }
+  },
+  "Crammer": {
+    "Crammer": {
+      "Dimension": 3,
+      "A": [
+        [-2, 3, 1],
+        [3, 4, -5],
+        [1, -2, 1]
+      ],
+      "B": [[9], [0], [-4]]
+    }
+  },
+  "Gauss": {
+    "Gauss": {
+      "Dimension": 3,
+      "A": [
+        [-2, 3, 1],
+        [3, 4, -5],
+        [1, -2, 1]
+      ],
+      "B": [[9], [0], [-4]]
+    }
+  },
+  "Gauss_Jordan": {
+    "Gauss_Jordan": {
+      "Dimension": 3,
+      "A": [
+        [-2, 3, 1],
+        [3, 4, -5],
+        [1, -2, 1]
+      ],
+      "B": [[9], [0], [-4]]
+    }
+  },
+  "LU": {
+    "LU": {
+      "Dimension": 3,
+      "A": [
+        [-2, 3, 1],
+        [3, 4, -5],
+        [1, -2, 1]
+      ],
+      "B": [[9], [0], [-4]]
+    }
+  },
+  "Jacobi": {
+    "Jacobi": {
+      "Dimension": 3,
+      "A": [
+        [-2, 3, 1],
+        [3, 4, -5],
+        [1, -2, 1]
+      ],
+      "B": [[9], [0], [-4]],
+      "X": [100, 100, 100]
+    }
+  },
+  "Gauss_seijei": {
+    "Gauss_seijei": {
+      "Dimension": 3,
+      "A": [
+        [4, -4, 0],
+        [-1, 4, -2],
+        [0, -2, 4]
+      ],
+      "B": [400, 400, 400],
+      "X": [0, 0, 0]
+    }
+  },
+  "Conjugate_Gradient": {
+    "Conjugate_Gradient": {
+      "Dimension": 4,
+      "A": [
+        [5, 2, 0, 0],
+        [2, 5, 2, 0],
+        [0, 2, 5, 2],
+        [0, 0, 2, 5]
+      ],
+      "B": [12, 17, 14, 7],
+      "X": [0, 0, 0, 0]
+    }
+  }
+  ,
+  "Newton": {
+    "Newton": {
+      "nPoints": 5,
+      "X":42000,
+      "interpolatePoint":2,
+      "x": [0, 20000, 40000, 60000, 80000],
+      "y": [9.81, 9.7487, 9.6879, 9.6879, 9.5682],
+      "p": [1, 5]
+    }
+  },
+  "Spline": {
+    "Spline": {
+      "nPoints": 5,
+      "X":5,
+      "x": [2, 4, 6, 8, 10],
+      "y": [9.5, 8.0, 10.5, 39.5, 72.0]
+    }
+  }
+  ,
+  "Linear": {
+    "Linear": {
+      "nPoints": 9,
+      "X":65,
+      "x": [10, 15, 20, 30, 40, 50, 60, 70, 80],
+      "y": [5, 9, 15, 18, 22, 30, 35, 38, 43]
+    }
+  },
+  "Polynomial": {
+    "Polynomial": {
+      "nPoints": 9,
+      "X":65,
+      "x": [10, 15, 20, 30, 40, 50, 60, 70, 80],
+      "y": [5, 9, 15, 18, 22, 30, 35, 38, 43]
+    }
+  },
+  "MultipleLinear": {
+    "MultipleLinear": {
+      "nPoints": 7,
+      "X":3,
+      "x": [
+        [1, 0, 1],
+        [0, 1, 3],
+        [2, 4, 1],
+        [3, 2, 2],
+        [4, 1, 5],
+        [2, 3, 3],
+        [1, 6, 4]
+      ],
+      "y": [4, -5, -6, 0, -1, -7, -20],
+      "xi": [1, 1, 1]
+    }
+  }
+}
